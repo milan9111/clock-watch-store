@@ -52,39 +52,8 @@ font: inherit;
 
 }
 
-.header-style {
-  background: #060606;
-}
-
-.header-search {
-  display: block;
-  width: 100%;
-  padding: 0% 78% 0% 1%;
-  font-size: 14px;
-  color: #454545;
-  background-color: #060606;
-  background-clip: padding-box;
-  border: 1px solid #060606;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  text-overflow: ellipsis;
-}
-
-.button-header-search {
-  display: inline-block;
-    font-size: 14px;
-    color: #eaeaea;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid transparent;
-}
-
-.header-icon {
+.header-awesome {
   font-size: 11px;
   color: #eaeaea;
+
 }
