@@ -55,5 +55,22 @@ font: inherit;
 .header-awesome {
   font-size: 11px;
   color: #eaeaea;
+}
 
+.header-nav {
+  display:table;
+  width:100%;
+  margin: 0;
+}
+
+.presentation {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #111111;
+  background-size: cover;
+}
+
+.text-block {
+  display: block;
 }
