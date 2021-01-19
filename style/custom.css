@@ -52,6 +52,11 @@ font: inherit;
 
 }
 
+@font-face {
+	font-family: 'BebasNeueBold'; 
+	src: url(../fonts/bebas-neue-bold.ttf); 
+}
+
 .header-awesome {
   font-size: 11px;
   color: #eaeaea;
@@ -61,6 +66,24 @@ font: inherit;
   display:table;
   width:100%;
   margin: 0;
+}
+
+
+.nav-link {
+  font-family: 'BebasNeueBold';
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 3px solid transparent;   
+}
+
+.nav-item {
+  margin: 0% 0% 0% 0%;
+}
+
+.nav-link:hover {
+  color: #f1cdb3;
+  border-bottom: 3px solid #f1cdb3;
 }
 
 .presentation {
@@ -73,4 +96,41 @@ font: inherit;
 
 .text-block {
   display: block;
+}
+
+.presentation h2 {
+  font-family: 'BebasNeueBold';
+  font-size: 82px;
+  color: #ffffff;
+  padding-top: 30%;
+}
+
+.presentation button {
+  background-color: transparent;
+  color: #8d7062;
+  font-family: 'BebasNeueBold';
+  font-size: 18px;
+  border: 2px solid  #8d7062;
+  padding: 1% 3%;
+  margin: 8% 3% 46% 0%
+}
+
+.presentation button:hover{
+  background-color: #8d7062;
+  color: #000000;
+}
+
+.store {
+  background-image: url(../images/bg-store.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #111111;
+  background-size: cover;
+}
+
+.store h2 {
+  font-family: 'BebasNeueBold';
+  font-size: 48px;
+  color: #ffffff;
+
 }
