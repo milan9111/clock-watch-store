@@ -251,5 +251,25 @@ background: #000000;
   padding: 6% 0%;
 }
 
+.img-rado {
+  padding-top: 8%;
+}
+
+.img-swatch {
+  padding-top: 8%;
+}
+
+.img-omega {
+  padding-top: 0%;
+}
+
+.img-zenith {
+  padding-top: 0%;
+}
+
+.img-rado:hover, .img-swatch:hover, .img-omega:hover, .img-zenith:hover   {
+  -webkit-filter: brightness(300%); 
+}
+
 
 
