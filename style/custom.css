@@ -287,18 +287,13 @@ background: #000000;
 
 .reviews .slider {
   position: relative;
-  padding: 0% 8%;
-  
+  padding-bottom: 8%;
 }
 
 .reviews .slider-item {
   cursor: pointer;
   text-align: center;
   width: 50%;
-}
-
-.reviews .slider-item img {
-  
 }
 
 .reviews.slick-list {
@@ -337,3 +332,28 @@ background: #000000;
   color: #3f3f3f;
 }
 
+footer {
+  background-color: #0e0e0e;
+}
+
+footer .footer-logo {
+  font-family: 'BebasNeueBold';
+  font-size: 36px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .footer-logo:hover {
+  color: #b6907e;
+}
+
+footer h2 {
+  padding-top: 18%;
+}
+
+footer .footer-menu {
+  font-family: 'BebasNeueBold';
+  font-size: 36px;
+  color: #ffffff;
+  text-decoration: none;
+}
